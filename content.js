@@ -20,6 +20,7 @@ cheatPanel.style.borderColor = "#6557D2"
 cheatPanel.style.backgroundColor = "#fff"
 cheatPanel.style.visibility = "hidden"
 cheatPanel.style.zIndex = 99999
+cheatPanel.style.overflow = "scroll"
 
 document.getElementById("buttonsID").appendChild(cheatPanel)
 
