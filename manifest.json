@@ -1,0 +1,20 @@
+{
+    "name": "GeoGebre",
+    "description": "Bre für Geogebra",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "geogebre@DerBoeseSchummler.github.io"
+      }
+    },
+    "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://geogebra.org/calculator?inject",
+        "https://www.geogebra.org/calculator?inject"
+      ]
+    }
+  ]
+  }
